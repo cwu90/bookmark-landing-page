@@ -80,6 +80,7 @@ a:hover {
   padding: 0;
   display: flex;
   flex-direction: row;
+
   text-align: center;
   gap: clamp(1rem, 1vw + 0.7rem, 3rem);
   list-style: none;
@@ -217,7 +218,6 @@ button:hover {
 /* Section-Two */
 
 .section-two {
-  /* height: 110vh; */
   position: relative;
   overflow: hidden;
 }
@@ -249,9 +249,6 @@ h2 {
 
 #section-context-two {
   text-align: center;
-  /* display: flex;
-  flex-direction: column;
-  gap: 1.5rem; */
 }
 
 /* Section Two Panel */
@@ -366,9 +363,6 @@ Section Three */
   width: 85%;
   margin: auto;
   align-items: center;
-  /* gap: 1rem; */
-  /* 
-  margin: auto; */
 }
 .section-three {
   margin-top: 4rem;
@@ -461,13 +455,6 @@ Section Three */
   align-items: center;
 }
 
-/* h4 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-} */
-
 .question {
   margin-block: 1rem;
   font-weight: 400;
@@ -484,11 +471,6 @@ Section Three */
   text-align: left;
   display: none;
 }
-
-/* Rotating Arrow */
-/* .open {
-  transform: rotate(180deg);
-} */
 
 .question-container {
   /* border-bottom: 1px solid rgba(153, 152, 152, 0.493); */
@@ -707,10 +689,7 @@ footer {
   .top-icon {
     margin-inline: 10px;
   }
-  /* .logo {
-    background-color: var(--clr-neutral-White);
-    color: var(--clr-neutral-VeryDarkBlue);
-  } */
+
   nav {
     position: relative;
   }

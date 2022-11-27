@@ -11,14 +11,14 @@ toggle.addEventListener('click', () => {
   if (visibility === 'false') {
     navbox.setAttribute('data-visible', 'true');
     overlay.classList.remove('none');
-    toggle.src = '/images/icon-close.svg';
+    toggle.src = 'images/icon-close.svg';
     logowrapper.style.color = 'white';
     icon.style.color = 'white';
     body.classList.add('scroll-disable');
   } else if (visibility === 'true') {
     navbox.setAttribute('data-visible', 'false');
     overlay.classList.add('none');
-    toggle.src = '/images/icon-hamburger.svg';
+    toggle.src = 'images/icon-hamburger.svg';
     logowrapper.style.color = '#252B46';
     icon.style.color = '#7D8DE3';
     body.classList.remove('scroll-disable');
@@ -28,7 +28,7 @@ toggle.addEventListener('click', () => {
 overlay.addEventListener('click', () => {
   navbox.setAttribute('data-visible', 'false');
   overlay.classList.add('none');
-  toggle.src = '/images/icon-hamburger.svg';
+  toggle.src = 'images/icon-hamburger.svg';
   logowrapper.style.color = '#252B46';
   icon.style.color = '#7D8DE3';
   body.classList.remove('scroll-disable');
