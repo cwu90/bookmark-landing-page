@@ -19,7 +19,6 @@ body,
 h1,
 h2,
 h3,
-h4,
 h5,
 p {
   padding: 0;
@@ -92,7 +91,7 @@ a:hover {
   background-color: var(--clr--soft-red);
   padding: 10px 35px;
   border-radius: 5px;
-  box-shadow: -5px 7px 10px -5px rgba(0, 0, 0, 0.158);
+  box-shadow: -5px 7px 10px -5px rgb(0, 0, 0, 0.158);
   color: white;
   border: 1px solid white;
 }
@@ -183,7 +182,7 @@ h1 {
 button {
   padding: 15px 30px;
   border-radius: 5px;
-  box-shadow: -5px 7px 10px -5px rgba(0, 0, 0, 0.158);
+  box-shadow: -5px 7px 10px -5px rgb(0, 0, 0, 0.158);
   background-color: var(--clr--soft-blue);
   color: white;
   border: none;
@@ -266,7 +265,7 @@ h2 {
 .panels-tab {
   position: relative;
   text-align: center;
-  border-bottom: 1px solid rgba(74, 94, 207, 0.2);
+  border-bottom: 1px solid rgb(74, 94, 207, 0.2);
   cursor: pointer;
   width: 33.33%;
   padding: 2rem 0;
@@ -387,7 +386,7 @@ Section Three */
 }
 
 .extension {
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgb(149, 157, 165, 0.2) 0px 8px 24px;
   border: 1px black;
   padding-inline: 1rem;
   border-radius: 10px;
@@ -473,12 +472,12 @@ Section Three */
 }
 
 .question-container {
-  /* border-bottom: 1px solid rgba(153, 152, 152, 0.493); */
-  border-top: 1px solid rgba(153, 152, 152, 0.493);
+  /* border-bottom: 1px solid rgb(153, 152, 152, 0.493); */
+  border-top: 1px solid rgb(153, 152, 152, 0.493);
 }
 
 .question-container:nth-child(4) {
-  border-bottom: 1px solid rgba(153, 152, 152, 0.493);
+  border-bottom: 1px solid rgb(153, 152, 152, 0.493);
 }
 
 .button-center {
@@ -719,7 +718,7 @@ footer {
   }
 
   .nav-links a:not(:last-child) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.329);
+    border-bottom: 1px solid rgb(255, 255, 255, 0.329);
   }
 
   #login-button {
@@ -727,7 +726,7 @@ footer {
     border: 2px solid white;
     padding: 10px 35px;
     border-radius: 5px;
-    box-shadow: -5px 7px 10px -5px rgba(0, 0, 0, 0.158);
+    box-shadow: -5px 7px 10px -5px rgb(0, 0, 0, 0.158);
     margin-top: 1rem;
   }
   overlay .nav-open-toggle {
@@ -747,8 +746,8 @@ footer {
   .overlay {
     background: linear-gradient(
       180deg,
-      rgba(37, 43, 64, 0.89) 25%,
-      rgba(37, 43, 64, 0.89) 25%
+      rgb(37, 43, 64, 0.89) 25%,
+      rgb(37, 43, 64, 0.89) 25%
     );
     height: 100%;
     width: 100vw;
@@ -826,7 +825,7 @@ footer {
     width: 20rem;
   }
   .panels-tab:first-child {
-    border-top: 1px solid rgba(74, 94, 207, 0.2);
+    border-top: 1px solid rgb(74, 94, 207, 0.2);
   }
   .panels-features {
     flex-direction: column;
